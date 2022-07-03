@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+
+.main {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+font-size: 50px;
+font-weight: bolder;
+text-shadow: -1px -1px 0 #000, 5px -1px 0 #000, -1px 5px 0 #000, 5px 5px 0 #000;
+
+}
+
+.subText {
+    margin-top: 30px;
+    margin-bottom:30px;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+.choices {
+    margin-top: 5px;
+    display: flex;
+    gap: 200px;
+    
+}
+
+#rock {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: yellow;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+     text-decoration: none;
+    cursor: pointer;
+    
+}
+#rock:hover {opacity: 1}
+
+#paper {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: yellow;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+     text-decoration: none;
+    cursor: pointer;
+}
+#paper:hover {opacity: 1}
+
+#scissors {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: yellow;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+     text-decoration: none;
+    cursor: pointer;
+}
+#scissors:hover {opacity: 1}
+
+body {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: black;
+color: white;
+
+}
+
+
+.result {
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    color: yellow;
+}
+
+
+#yourScore {
+    display: flex;
+    align-self: flex-start;
+    background-color: black;
+    color: yellow;
+    font-size: 100px;
+}
+
+#computerScore{
+    background-color: black;
+    color: yellow;
+    font-size: 100px;
+}
+
+.scores {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+
+
+.ui {
+    border-style: solid;
+    border-color: yellow;
+    padding: 10px;
+}
+
+
+footer {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    
+
+}
+
+.bottomBanner {
+    display: flex;
+    margin-top: 93px;
+    justify-content: center;
+    background-color: white;
+}
+
+.bannerText {
+    color: black;
+    text-size: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-weight: 800;
+}
